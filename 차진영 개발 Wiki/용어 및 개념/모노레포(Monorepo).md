@@ -2,7 +2,7 @@
 
 - 여러 앱/라이브러리를 **하나의 레포지토리**에서 관리하는 방식
 
-![image.png](%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC(Monorepo)%202612bc32c77b80a0a755d11302b07d57/image.png)
+![monorepo.png](../../assets/images/monorepo.png)
 
 ### 모노레포 사용 목적
 

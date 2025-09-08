@@ -5,7 +5,7 @@
 ### **특징**
 
 - JavaScript내에서 직접 스타일을 작성할 수 있는 **CSS-in-JS** 기반으로 상태에 따라 스타일 변경이 쉽다.
-  [**CSS-in-JS**](../%EC%9A%A9%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%85%90%20a0699e3f6c1c431db628362ccea1ddaf/JavaScript%20TypeScript%201c72bc32c77b803c908bd27361cff82d/CSS-in-JS%20e8455c5af30e42119214a5bcc56833eb.md)
+  [**CSS-in-JS**](..%2F%EC%9A%A9%EC%96%B4%20%EB%B0%8F%20%EA%B0%9C%EB%85%90%2FJavaScript%20%26%20TypeScript%2FCSS-in-JS.md)
 - `styled`, `css`를 모두 사용 가능하다.
 
 ### **설치**
