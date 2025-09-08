@@ -4,7 +4,7 @@
 
 [TypeScript](./JavaScript%20&%20TypeScript/TypeScript.md)
 
-[const arrow / function의 차이](.%2FJavaScript%2520%26%2520TypeScript%2Fconst%2520arrow%2520function%EC%9D%98%2520%EC%B0%A8%EC%9D%B4.md)
+[const arrow / function의 차이](./JavaScript%20&%20TypeScript/const%20arrow%20function의%20차이.md)
 
 [**CSS-in-JS**](./JavaScript%20&%20TypeScript/CSS-in-JS.md)
 

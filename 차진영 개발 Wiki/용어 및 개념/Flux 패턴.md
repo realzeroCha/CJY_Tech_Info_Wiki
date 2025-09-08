@@ -4,11 +4,11 @@
 
 - Flux 패턴의 흐름
 
-![flux.png](Flux%20%ED%8C%A8%ED%84%B4%20461e9ba469b24a2b85a0902cceafa4ee/flux.png)
+![flux.png](../../assets/images/flux.png)
 
 - MVC 모델의 흐름
 
-![mvc_model.png](Flux%20%ED%8C%A8%ED%84%B4%20461e9ba469b24a2b85a0902cceafa4ee/mvc_model.png)
+![mvc_model.png](../../assets/images/mvc_model.png)
 
 ⇒ 양방향으로 데이터를 전달하는 MVC 모델에 비해 단순한 흐름을 가진다.
 
@@ -25,24 +25,20 @@
 **구성**
 
 - **Action**: 데이터를 변경 ⇒ **type**과 **payload**를 묶어 **Dispatcher**에 전달한다.
-    
-    ```jsx
-    {
-      type: 'USER_INFO',
-      data: {
-        'name': 'JAMES',
-        'phone_number': '010-1234-1234'
-      }
+  ```jsx
+  {
+    type: 'USER_INFO',
+    data: {
+      'name': 'JAMES',
+      'phone_number': '010-1234-1234'
     }
-    ```
-    
+  }
+  ```
 - **Dispatcher**: Action을 받아 Store에 저장하는 중앙 허브 역할
-    
-    ⇒ Dispatcher에서만 Store의 상태를 조작할 수 있다.
-    
+  ⇒ Dispatcher에서만 Store의 상태를 조작할 수 있다.
 - **Store**: 모든 상태와 상태 변경 로직을 저장하는 저장소
 - **View**: 컴포넌트를 의미 ⇒ Store에서 새롭게 데이터를 받을 경우 화면을 리렌더링한다.
 
-![flux_process.png](Flux%20%ED%8C%A8%ED%84%B4%20461e9ba469b24a2b85a0902cceafa4ee/flux_process.png)
+![flux_process.png](../../assets/images/flux_process.png)
 
 위와 같이 **View**에서 입력을 통해 **Action**을 발생시키면 **Dispatcher**로 전달하여 **Store**의 데이터를 변경, 변경된 데이터를 다시 **View**로 보내어 리렌더링하는 과정이 반복된다.

@@ -5,7 +5,7 @@
 ### **특징**
 
 - **Flux 패턴**에 맞추어 설계되어 있다.
-  [Flux 패턴](..%2F..%2F%EC%9A%A9%EC%96%B4%2520%EB%B0%8F%2520%EA%B0%9C%EB%85%90%2FFlux%2520%ED%8C%A8%ED%84%B4.md)
+  [Flux 패턴](../../용어%20및%20개념/Flux%20패턴.md)
 - **React Context** 기반의 라이브러리로 최상단에 **Provider**를 위치하고 있다.
 
 ### **설치**
@@ -167,11 +167,11 @@ const middleware = function middleware(store) {
 
 **대표적인 middleware**
 
-[redux-logger](Redux/redux-logger.md)
+[redux-logger](./Redux/redux-logger.md)
 
-[redux-thunk](Redux/redux-thunk.md)
+[redux-thunk](./Redux/redux-thunk.md)
 
-[redux-saga](Redux/redux-saga.md)
+[redux-saga](./Redux/redux-saga.md)
 
 ⇒ 간단한 비동기 함수 요청은 **redux-thunk**, 복잡한 비동기 플로우에는 **redux-saga**가 유용
 

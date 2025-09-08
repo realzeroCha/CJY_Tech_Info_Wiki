@@ -2,7 +2,7 @@
 
 상태를 원자처럼 작은 단위로 나누는 패턴이다.
 
-![atomic.png](Atomic%20%ED%8C%A8%ED%84%B4%2018f2bc32c77b80a3b359d09a9381a179/atomic.png)
+![atomic.png](../../assets/images/atomic.png)
 
 - 각 데이터를 **Key**로 구분하여 이전 상태의 불변성을 유지하기 때문에 **재사용성**, **유지보수성** 용이
 - 체계적인 **상태 관리**에 용이하다.
