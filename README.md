@@ -2,7 +2,7 @@
 
 ### 학습하다가, 궁금할 때, 심심할 때, 하나씩 적어본 미니위키
 
-### Notion에서 적었다가 옮김
+#### Notion에서 적었다가 옮김
 
 [React / React-Native](./차진영%20개발%20Wiki/React%20React-Native.md)
 
